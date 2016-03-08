@@ -71,9 +71,8 @@ try! Swift Conf に参加してきた。
 
 - 僕が見てる範囲の日本で iOS アプリケーションエンジニアやってる人からは「コードで View を作るとかないでしょ。Autolayout + SizeClass の時代だし IB 使おう。不便さもあるけど総じて便利さの方が上回るよね」という雰囲気を感じてたんだけど、向こうの人達はそうでもないっぽい？
 
-- 海外勢がやたらポケモンを推してくるなと思ったら、スピードスター（技名）が英語版だと Swift となっているらしい。
-  - http://bulbapedia.bulbagarden.net/wiki/Swift_(move)
-    - ポケモン 20 周年おめでとうございます！！思い出補正に負けて 3DS の VC で赤版とピカチュウ版買いました！！！セレクトバグ最高！！！！
+- 海外勢がやたらポケモンを推してくるなと思ったら、スピードスター（技名）が英語版だと [Swift](http://bulbapedia.bulbagarden.net/wiki/Swift_(move)) となっているらしい。
+  - ポケモン 20 周年おめでとうございます！！思い出補正に負けて 3DS の VC で赤版とピカチュウ版買いました！！！セレクトバグ最高！！！！
 
 
 ##### xcodeless - the buildsystem | [@Daniel1of1](https://twitter.com/daniel1of1) | [書き起こし](http://niwatako.hatenablog.jp/entry/2016/03/04/153514)
