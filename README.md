@@ -26,7 +26,7 @@ try! Swift Conf に参加してきた。
 逆に、昨今ではこういうカンファレンスに出向いては直接人を雇う・ "We are hiring!!" とアピールすることは流行っていないように感じます。そういった攻めのブランディングではなく、 **「優秀なエンジニアが集まるところには金と時間を提供するのが IT 企業としての社会的な責任だよね」** みたいな風潮になってるのかもしれない **（完全に個人の主観です）**。
 
 - イベント T シャツの背中に印刷されたスポンサー企業各社のロゴ
-![イベント T シャツの背中に印刷されたスポンサー企業各社のロゴ](941/2016-03-03 14.39.40.jpg)
+<a href="941/2016-03-03 14.39.40.jpg"><img src="941/2016-03-03 14.39.40.jpg" alt="イベント T シャツの背中に印刷されたスポンサー企業各社のロゴ" height="200px"></a>
 
 僕はたまたまプログラマとしてエンジニア向けのカンファレンスに参加して上記の様な感想を抱きましたが、恐らくエンジニアだろうがなんだろうがあまり関係ない話として、オープンに人が集まるところ・社会的な責任をアピールできそうなところにスポンサーとしてリソースを提供することの大事さというものは一定存在すると思いますので、そういうところで常にクールな姿勢でありたいですねという感じです。
 
@@ -34,13 +34,13 @@ try! Swift Conf に参加してきた。
 # 雰囲気というか空気感まとめ
 
 - 後ろから撮ったセッションの様子
-![後ろから撮ったセッションの様子](941/2016-03-03 14.31.26.jpg)
+<div><a href="941/2016-03-03 14.31.26.jpg"><img src="941/2016-03-03 14.31.26.jpg" alt="後ろから撮ったセッションの様子" height="200px"></a></div>
 
 - 昼休みに充電ステーションに生えた MacBook の群れ
-![昼休みに充電ステーションに生えた MacBook の群れ](img/IMG_3096.JPG)
+<div><a href="img/IMG_3096.JPG"><img src="img/IMG_3096.JPG" alt="昼休みに充電ステーションに生えた MacBook の群れ" height="200px"></a></div>
 
 - 配られた 3 種類の弁当の中でもベジタリアン向けのものが一番美味しかった
-![配られた 3 種類の弁当の中でもベジタリアン向けのものが一番美味しかった](img/IMG_3124.JPG)
+<div><a href="img/IMG_3124.JPG"><img src="img/IMG_3124.JPG" alt="配られた 3 種類の弁当の中でもベジタリアン向けのものが一番美味しかった" height="200px"></a></div>
 
 - 誰かが [Tim Oliver](https://twitter.com/TimOliverAU) 氏のことをタイポなんかで [Tom Oliver](https://en.wikipedia.org/wiki/Tom_Oliver) って呼んで、その後スピーカー達が続々と Twitter で自分の名前を Tom Oliver に変更しまくってツイートしてて誰が誰だか分からなくなってた。
   - Tim Oliver 氏自体のセッションは `Core Animation` に関するもので、とにかく `Core Animation` サイコーという話をしていた。
@@ -51,7 +51,7 @@ try! Swift Conf に参加してきた。
   - inamiy 氏のセッションの内容は最高で、成果物の [TryParsec](https://github.com/inamiy/TryParsec) も最高でした。凄い人が同じ会社に居るなと思ってそれだけでワクワクした。
 
 - 最終日全員が参加出来る打ち上げ会場の人口密度が高すぎて身動きがほぼ取れなかった図
-![最終日全員が参加出来る打ち上げ会場の人口密度が高すぎて身動きがほぼ取れなかった図](img/IMG_3127.JPG)
+<div><a href="img/IMG_3127.JPG"><img src="img/IMG_3127.JPG" alt="最終日全員が参加出来る打ち上げ会場の人口密度が高すぎて身動きがほぼ取れなかった図" height="200px"></a></div>
 
 - 2 日目のスピーカーディナーのときに初めて同じ会社で働いてるはずの inamiy さんと挨拶することが出来て、翌日の最終日のパーティーで inamiy さんの紹介で初めて同じ会社で働いてる人達に挨拶するイベントなどが発生した。
 
@@ -75,34 +75,31 @@ try! Swift Conf に参加してきた。
   - http://bulbapedia.bulbagarden.net/wiki/Swift_(move)
     - ポケモン 20 周年おめでとうございます！！思い出補正に負けて 3DS の VC で赤版とピカチュウ版買いました！！！セレクトバグ最高！！！！
 
-- xcodeless - the buildsystem | [@Daniel1of1](https://twitter.com/daniel1of1)
-  - Objective-C Runtime を使ってない Swift ネイティヴな実装でも `memcpy` で強引に vTable を書き換えてやれば Method Swizzle 出来るよという話。
-  - 該当セッションの書き起こしは [こちら](http://niwatako.hatenablog.jp/entry/2016/03/04/153514)
+##### xcodeless - the buildsystem | [@Daniel1of1](https://twitter.com/daniel1of1)
+- Objective-C Runtime を使ってない Swift ネイティヴな実装でも `memcpy` で強引に vTable を書き換えてやれば Method Swizzle 出来るよという話。
+- 該当セッションの書き起こしは [こちら](http://niwatako.hatenablog.jp/entry/2016/03/04/153514)
 
-- 実践的クロスプラットフォーム Swift | [@simjp](https://twitter.com/simjp)
-  - Swift ネイティヴで書いてるはずでも何処かに Objective-C Runtime に依存してしまうことがあって、ここら辺の闇が深くて簡単には解決手法を見付けられず Linux 上で動作させられない事例があるという話。
-    - `Result` の（たぶんキャスト部分のどこかだと睨んでるんだけど違うかもしれないところの何処か）に Objective-C Runtime に依存してるっぽくて、調べたけどこりゃダメだ、ごめんわからないわｗ とのこと。
-  - 該当セッションの書き起こしは [こちら](http://niwatako.hatenablog.jp/entry/2016/03/02/105742)
+##### 実践的クロスプラットフォーム Swift | [@simjp](https://twitter.com/simjp)
+- Swift ネイティヴで書いてるはずでも何処かに Objective-C Runtime に依存してしまうことがあって、ここら辺の闇が深くて簡単には解決手法を見付けられず Linux 上で動作させられない事例があるという話。
+  - `Result` の（たぶんキャスト部分のどこかだと睨んでるんだけど違うかもしれないところの何処か）に Objective-C Runtime に依存してるっぽくて、調べたけどこりゃダメだ、ごめんわからないわｗ とのこと。
+- 該当セッションの書き起こしは [こちら](http://niwatako.hatenablog.jp/entry/2016/03/02/105742)
 
-- プロトタイピングの魔法 | [@b3ll](https://twitter.com/b3ll) 
-  - iOS 6 時代のアニメーション設計は良かった。iOS 7 からのフラットデザインはダメだみたいな話をしてた。
-    - 私見ですが完全に同意です。
-      - `CALayer` は難しいという話になって、初日に `CALayer` 最高！！って話をしてた [Tim Oliver](https://twitter.com/TimOliverAU) 氏がしょんぼりしてたとのこと。
-  - Xcode 7.3 からは Playground で UIGestureRecognizer 使えてプロトタイピング出来るよという話。
-    - UIDynamics のデバッグ最高に便利。
-      - 私見なんだけど、これって要するに OSX 上で UIKit が動くよってことなので AppKit を捨てて UXKit でアプリ開発出来る未来に期待が掛かる。
-  - 該当セッションの書き起こしは [こちら](http://niwatako.hatenablog.jp/entry/2016/03/03/113028)
+##### プロトタイピングの魔法 | [@b3ll](https://twitter.com/b3ll) 
+- iOS 6 時代のアニメーション設計は良かった。iOS 7 からのフラットデザインはダメだみたいな話をしてた。
+  - 私見ですが完全に同意です。
+    - `CALayer` は難しいという話になって、初日に `CALayer` 最高！！って話をしてた [Tim Oliver](https://twitter.com/TimOliverAU) 氏がしょんぼりしてたとのこと。
+- Xcode 7.3 からは Playground で UIGestureRecognizer 使えてプロトタイピング出来るよという話。
+  - UIDynamics のデバッグ最高に便利。
+    - 私見なんだけど、これって要するに OSX 上で UIKit が動くよってことなので AppKit を捨てて UXKit でアプリ開発出来る未来に期待が掛かる。
+- 該当セッションの書き起こしは [こちら](http://niwatako.hatenablog.jp/entry/2016/03/03/113028)
 
-- Swift ヒップスター | [@allonsykraken](https://twitter.com/allonsykraken)
-  - `lazy var` はクロージャと同じでキャプチャが走るんだけど、一見パッとそうは見えないから気を付けないとリークしちゃうよという話。
-  - 該当セッションの書き起こしは [こちら](http://niwatako.hatenablog.jp/entry/2016/03/04/131157)
+##### Swift ヒップスター | [@allonsykraken](https://twitter.com/allonsykraken)
+- `lazy var` はクロージャと同じでキャプチャが走るんだけど、一見パッとそうは見えないから気を付けないとリークしちゃうよという話。
+- 該当セッションの書き起こしは [こちら](http://niwatako.hatenablog.jp/entry/2016/03/04/131157)
 
-- オープンソース Swift への貢献 | [@jesse_squires](https://twitter.com/jesse_squires)
-  - OSS への貢献という話だったけど、気持ちの良いチームプレイをしていくためのノウハウといった側面もあって、汎用性の高いエモい話で大変良かった。
-    - 「例えば Typo の修正などは細かいことにも思えるけど、非英語圏の人達にはそれが typo なのか分からない場合があって、翻訳が出来なくなることすら考えられる。小さな貢献も必ず誰かの役に立つんだよ。」
-    - 「Swift をより良いものにしようという気持ちはみんな一緒だから、お互いを尊敬・尊重していこう。小さな貢献には価値があるし、提案のリジェクトは貴方の人格を否定してる訳じゃないよ。」
-      - わかる。
-  - 該当セッションの書き起こしは [こちら](http://niwatako.hatenablog.jp/entry/2016/03/04/173304)
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">人格まで含めて技術力ですね。</p>&mdash; ゆうすけさん。 (@DNPP) <a href="https://twitter.com/DNPP/status/705673167243649024">2016年3月4日</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+##### オープンソース Swift への貢献 | [@jesse_squires](https://twitter.com/jesse_squires)
+- OSS への貢献という話だったけど、気持ちの良いチームプレイをしていくためのノウハウといった側面もあって、汎用性の高いエモい話で大変良かった。
+  - 「例えば Typo の修正などは細かいことにも思えるけど、非英語圏の人達にはそれが typo なのか分からない場合があって、翻訳が出来なくなることすら考えられる。小さな貢献も必ず誰かの役に立つんだよ。」
+  - 「Swift をより良いものにしようという気持ちはみんな一緒だから、お互いを尊敬・尊重していこう。小さな貢献には価値があるし、提案のリジェクトは貴方の人格を否定してる訳じゃないよ。」
+    - [わかる。](https://twitter.com/DNPP/status/705673167243649024)
+- 該当セッションの書き起こしは [こちら](http://niwatako.hatenablog.jp/entry/2016/03/04/173304)
