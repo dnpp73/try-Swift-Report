@@ -81,7 +81,7 @@ try! Swift Conf に参加してきた。
 
 ##### 実践的クロスプラットフォーム Swift | [@simjp](https://twitter.com/simjp) | [書き起こし](http://niwatako.hatenablog.jp/entry/2016/03/02/105742)
 - Swift ネイティヴで書いてるはずでも何処かに Objective-C Runtime に依存してしまうことがあって、ここら辺の闇が深くて簡単には解決手法を見付けられず Linux 上で動作させられない事例があるという話。
-  - `Result` の（たぶんキャスト部分のどこかだと睨んでるんだけど違うかもしれないところの何処か）に Objective-C Runtime に依存してるっぽくて、調べたけどこりゃダメだ、ごめんわからないわｗ とのこと。
+  - `Result` （の多分キャスト部分のどこかだと睨んでるんだけど違うかもしれないところの何処か）が Objective-C Runtime に依存してるっぽくて、調べたけどこりゃダメだ、ごめんわからないわｗ とのこと。
 
 
 ##### プロトタイピングの魔法 | [@b3ll](https://twitter.com/b3ll)  | [書き起こし](http://niwatako.hatenablog.jp/entry/2016/03/03/113028)
